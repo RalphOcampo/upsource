@@ -1,0 +1,124 @@
+
+.game_prompt_question_container
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+}
+.game_prompt_question_background
+{
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.game_prompt_question_content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
+
+    background-image: url("comscreen.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%;
+
+    color: white;
+
+    /* font-weight: bold; */
+
+    font-size: 22px;
+
+}
+
+.game_prompt_question_content_title
+{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+
+    width: 60%;
+    
+    user-select: none;
+
+    font-size: 30px!important;
+    color: white!important;
+    font-weight: bold;
+}
+
+.game_prompt_question_content_text
+{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    user-select: none;
+    text-align: center;
+
+    background-image: -webkit-linear-gradient(left, transparent 10px, transparent 10px), -webkit-linear-gradient(right, transparent 10px, transparent 10px), -webkit-linear-gradient(transparent 30px, white 30px, white 31px, transparent 31px);
+    background-image: -moz-linear-gradient(left, transparent 10px, transparent 10px), -moz-linear-gradient(right, transparent 10px, transparent 10px), -moz-linear-gradient(transparent 30px, white 30px, white 31px, transparent 31px);
+    background-image: -ms-linear-gradient(left, transparent 10px, transparent 10px), -ms-linear-gradient(right, transparent 10px, transparent 10px), -ms-linear-gradient(transparent 30px, white 30px, white 31px, transparent 31px);
+    background-image: -o-linear-gradient(left, transparent 10px, transparent 10px), -o-linear-gradient(right, transparent 10px, transparent 10px), -o-linear-gradient(transparent 30px, white 30px, white 31px, transparent 31px);
+    background-image: linear-gradient(left, transparent 10px, transparent 10px), linear-gradient(right, transparent 10px, transparent 10px), linear-gradient(transparent 30px, white 30px, white 31px, transparent 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    /* border: 1px solid red; */
+    /* border-radius: 8px; */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 25px;
+    /* font-family: Arial, Helvetica, Sans-serif; */
+    padding: 8px;
+    width: 58%;
+    height: 40%;
+
+    border: none;
+
+    background-color: transparent;
+    color: white;
+
+    font-size: 25px;
+}
+
+.game_prompt_question_content_text:focus
+{
+    outline: none;
+}
+
+.game_prompt_question_content_note
+{
+    position: absolute;
+    bottom: -15px;
+    left: -45px;
+
+    width: 60%;
+    
+    user-select: none;
+
+    font-size: 16px!important;
+    color: white!important;
+    /* font-weight: bold; */
+}
+
+.game_prompt_question_content_note_left
+{
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.game_prompt_question_content_note_right
+{
+    text-align: center!important; 
+    display: inline-block;
+}
+
+.customize_prompt_question_displaynone
+{
+    display: none!important;
+}

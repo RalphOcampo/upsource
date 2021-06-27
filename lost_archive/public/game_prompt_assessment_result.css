@@ -1,0 +1,117 @@
+
+.game_prompt_assessment_result_container
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+}
+.game_prompt_assessment_result_background
+{
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.game_prompt_assessment_result_content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
+
+    background-image: url("comscreen.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%;
+
+    color: white;
+
+    /* font-weight: bold; */
+
+    font-size: 22px;
+
+}
+
+.game_prompt_assessment_result_content_title
+{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+
+    width: 60%;
+    
+    user-select: none;
+
+    font-size: 25px!important;
+    color: white!important;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.game_prompt_assessment_result_content_text
+{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -64%);
+    user-select: none;
+    text-align: center;
+
+    width: 70%;
+    height: 40%;
+
+    border: none;
+
+    /* background-color: red; */
+    color: white;
+
+    font-size: 25px;
+
+    line-height: 45px;
+}
+
+.game_prompt_assessment_result_content_text:focus
+{
+    outline: none;
+}
+
+.game_prompt_assessment_result_content_button
+{
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.game_prompt_assessment_result_content_button:hover
+{
+    border: 3px solid orange;
+    cursor: pointer;
+}
+
+.customize_prompt_assessment_result_displaynone
+{
+    display: none!important;
+}
+
+.customize_prompt_assessment_result_backgroundgreen
+{
+    background-color: #c92804!important
+}

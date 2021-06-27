@@ -1,0 +1,66 @@
+
+.game_loading_container
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+}
+.game_loading_background
+{
+    background-color: black;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.game_loading_content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 70%;
+
+    background-image: url("comscreen.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%;
+
+    color: white;
+
+    /* font-weight: bold; */
+
+    font-size: 22px;
+
+}
+
+.game_loading_content_title
+{
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -29%);
+    user-select: none;
+
+    font-size: 30px!important;
+    color: cyan!important;
+    font-weight: bold;
+}
+
+.game_loading_content_text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+.customize_displaynone
+{
+    display: none!important;
+}

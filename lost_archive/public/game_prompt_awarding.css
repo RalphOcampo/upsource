@@ -1,0 +1,159 @@
+
+.game_prompt_awarding_container
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.game_prompt_awarding_background
+{
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.game_prompt_awarding_content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75%;
+    width: 80%;
+
+    background-image: url("certificate_name_year.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100% 100%;
+
+    color: white;
+
+    /* font-weight: bold; */
+
+    font-size: 22px;
+    border: 5px solid white;
+
+}
+
+.game_prompt_awarding_content_title
+{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+
+    transform: translate(-50%, -42%);
+
+    width: 60%;
+    
+    user-select: none;
+
+    font-size: 25px!important;
+    color: white!important;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.game_prompt_awarding_content_text
+{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -77%);
+    user-select: none;
+    text-align: center;
+
+    width: 70%;
+    height: 40%;
+
+    border: none;
+
+    /* background-color: red; */
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    line-height: 45px;
+}
+
+.game_prompt_awarding_content_text:focus
+{
+    outline: none;
+}
+
+.game_prompt_awarding_content_score
+{
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -98%);
+    user-select: none;
+    text-align: center;
+
+    width: 70%;
+    height: 40%;
+
+    border: none;
+
+    /* background-color: red; */
+    color: white;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    line-height: 45px;
+}
+
+.game_prompt_awarding_content_note
+{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    padding: 10px;
+    /* width: 200px; */
+    font-size: 16px;
+    /* background-color: orange; */
+    color: white;
+    /* outline: none; */
+    /* border: 3px solid black; */
+    /* border-radius: 10px; */
+}
+
+.game_prompt_awarding_content_button
+{
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.game_prompt_awarding_content_button:hover
+{
+    border: 3px solid orange;
+    cursor: pointer;
+}
+
+.customize_awarding_displaynone
+{
+    display: none!important;
+}
+
+.customize_awarding_backgroundgreen
+{
+    background-color: #c92804!important
+}
